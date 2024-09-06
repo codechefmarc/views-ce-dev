@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "251eb156dfb30d4cb4da4a3c36d60cb2",
+    "content-hash": "151e95aa170d74c17e5f607918a5b9fd",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -121,6 +121,39 @@
                 "source": "https://github.com/Chi-teck/drupal-code-generator/tree/3.6.1"
             },
             "time": "2024-06-06T17:36:37+00:00"
+        },
+        {
+            "name": "codechefmarc/views_ce",
+            "version": "dev-main",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/codechefmarc/views_ce.git",
+                "reference": "2bf76df4e0972dc6a6cff11983198731b4b51d55"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/codechefmarc/views_ce/zipball/2bf76df4e0972dc6a6cff11983198731b4b51d55",
+                "reference": "2bf76df4e0972dc6a6cff11983198731b4b51d55",
+                "shasum": ""
+            },
+            "default-branch": true,
+            "type": "drupal-module",
+            "authors": [
+                {
+                    "name": "codechefmarc",
+                    "email": "marc@fourkitchens.com"
+                },
+                {
+                    "name": "dblanken-yale",
+                    "email": "david.blankenship@yale.edu"
+                }
+            ],
+            "description": "A simpler Drupal views tool meant for content editors",
+            "support": {
+                "source": "https://github.com/codechefmarc/views_ce/tree/main",
+                "issues": "https://github.com/codechefmarc/views_ce/issues"
+            },
+            "time": "2024-09-06T17:52:14+00:00"
         },
         {
             "name": "composer/installers",
@@ -2179,6 +2212,65 @@
             "homepage": "http://emulsify.info",
             "support": {
                 "source": "https://git.drupalcode.org/project/emulsify_tools"
+            }
+        },
+        {
+            "name": "drupal/linkit",
+            "version": "6.1.4",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/linkit.git",
+                "reference": "6.1.4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/linkit-6.1.4.zip",
+                "reference": "6.1.4",
+                "shasum": "f5544a39d691af5efd1532bd5403862a7153f60b"
+            },
+            "require": {
+                "drupal/core": "^10.1"
+            },
+            "require-dev": {
+                "drupal/ckeditor": "*",
+                "drupal/imce": "*"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "drupal": {
+                    "version": "6.1.4",
+                    "datestamp": "1715203830",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Emil Stjerneman",
+                    "homepage": "https://stjerneman.com",
+                    "email": "emil@stjerneman.com",
+                    "role": "Maintainer"
+                },
+                {
+                    "name": "johnwebdev",
+                    "homepage": "https://www.drupal.org/user/3331569"
+                },
+                {
+                    "name": "mark_fullmer",
+                    "homepage": "https://www.drupal.org/user/2612816"
+                }
+            ],
+            "description": "Linkit - Enriched linking experience",
+            "homepage": "http://drupal.org/project/linkit",
+            "support": {
+                "source": "http://cgit.drupalcode.org/linkit",
+                "issues": "http://drupal.org/project/linkit"
             }
         },
         {
@@ -6934,6 +7026,7 @@
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
+        "codechefmarc/views_ce": 20,
         "drupal/components": 10
     },
     "prefer-stable": true,

@@ -12,9 +12,14 @@
         {
             "type": "composer",
             "url": "https://packages.drupal.org/8"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/codechefmarc/views_ce.git"
         }
     ],
     "require": {
+        "codechefmarc/views_ce": "dev-main",
         "composer/installers": "^2.0",
         "cweagans/composer-patches": "^1.7",
         "drupal/admin_toolbar": "^3.4",
@@ -25,6 +30,7 @@
         "drupal/devel": "^5.1",
         "drupal/devel_kint_extras": "^1.1",
         "drupal/emulsify": "^5.0",
+        "drupal/linkit": "^6.1",
         "drupal/token": "^1.13",
         "drush/drush": "^12.4"
     },
